@@ -6,9 +6,9 @@ const Random = (props) => {
   }
 
   return (
-    <div className="text-2xl ml-6 mb-3 border-4 p-3 w-1/3">
+    <div className="text-xl ml-6 mb-3 border-4 p-3 w-1/2">
       <strong>
-        Random value between {props.min} and {props.max} :
+        Random value between {props.min} and {props.max} {'===>'}
       </strong>
       {random(props.min, props.max)}
     </div>
